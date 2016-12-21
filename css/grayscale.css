@@ -91,7 +91,10 @@ html {
     height: 100%;
 }
 
-h1,
+h1{
+    font-weight: bold;
+    -webkit-text-stroke: 1.5px black;
+}
 h2,
 h3{
     font-size: 25px;
