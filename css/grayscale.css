@@ -119,7 +119,10 @@ html {
 
 h1,
 h2,
-h3,
+h3{
+    font-size: 25px;
+    font-weight: bold;
+}
 h4,
 h5,
 h6 {
@@ -258,7 +261,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/intro-bg1.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -376,7 +379,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/bg4.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -387,7 +390,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/conclusion1.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -403,17 +406,14 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 50px;
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 50px 0;
     }
 
-    #map {
-        height: 400px;
-        margin-top: 250px;
-    }
+   
 }
 
 .btn {
